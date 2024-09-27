@@ -1,11 +1,11 @@
 # Plot sentiment distribution
 df['airline_sentiment'].value_counts().plot(kind = 'barh',
-                                            figsize = (15,10));
+                                            figsize = (15,10))
 plt.title('Distribution of airline sentiment in Kaggle dataset',
           fontsize = 26, weight = 'bold')
 plt.xlabel('Frequency', fontsize = 22)
 plt.xticks(fontsize = 20)
-plt.yticks(fontsize = 20);
+plt.yticks(fontsize = 20)
 
 
 
